@@ -1,4 +1,3 @@
-import React from 'react';
 import './Appointment.css';
 import BannerImg from '../../images/banner-img.png';
 import ReactCalender from './Calender';
