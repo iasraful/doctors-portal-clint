@@ -6,6 +6,7 @@ import { CalenderContext } from "../../App";
 
 const ReactCalender = () => {
   const calenderData = useContext(CalenderContext)
+  const calan = calanderDate.div.value
   const onChange = date => calenderData.setDate(date)
 
   return (
@@ -13,6 +14,7 @@ const ReactCalender = () => {
             <Calendar
               onChange={onChange}
               value={calenderData.value}
+              valueTwo={calan}
             />
         </div>
     
